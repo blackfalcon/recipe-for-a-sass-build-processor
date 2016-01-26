@@ -1,0 +1,24 @@
+.foobar {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation: spin 800ms steps(6) 0s infinite both;
+  animation: spin 800ms steps(6) 0s infinite both;
+  -webkit-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+  cursor: -webkit-grab;
+  cursor: grab;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  background-color: orange;
+  space: nowrap;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+$color: orange;
+
+@mixin the-test($flex, $rotate, $hyphens) {
+  display: $flex;
+  animation: spin 800ms steps(6) 0s infinite both;
+  transform: rotate($rotate);
+  user-select: none !important;
+  cursor: grab;
+  hyphens: $hyphens;
+  @content;
+  space: nowrap;
+}
+
+.foobar {
+  @include the-test(flex, -60deg, auto) {
+    background-color: $color;
+  }
+}
